@@ -1,0 +1,180 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* utilities */
+.m-t-30{
+  margin-top: 30px;
+}
+
+.site{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+/* N A V B A R */
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid black;
+  height: 100px;
+}
+
+.navbar-left{
+  flex-basis: 50%;
+  border: 1px solid blue;
+  height: 20px;
+}
+
+.navbar-right{
+  flex-basis: 50%;
+  border: 1px solid red;
+  height: 20px;
+}
+
+/* J U M B O T R O N */
+.jumbotron{
+  display: flex;
+  align-items: center;
+  height: 300px;
+  border: 2px solid black;
+}
+
+.jumbotron-left{
+  flex-basis: 50%;
+  height: 200px;
+  border: 1px solid blue;
+}
+
+.jumbotron-right{
+  flex-basis: 50%;
+  height: 200px;
+  border: 1px solid red;
+}
+
+/* M E E T  S E C T I O N */
+
+.meet{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  border: 2px solid black;
+}
+
+.bio{
+  flex-basis: 70%;
+  border: 1px solid blue;
+  height: 400px;
+}
+
+/* S E R V I C E  S E C T I O N */
+.service{
+  display: flex;
+  flex-direction: column;
+  align-items:  center;
+  border: 2px solid black;
+  height: 400px;
+}
+
+.service-box{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 50px;
+  border: 2px solid red;
+  height: 600px;
+}
+
+
+.service-box1{
+
+  width: calc(90% / 3);
+  border: 1px solid blue;
+}
+
+.service-box2{
+
+  flex-basis: calc(90% / 3);
+  border: 1px solid green;
+
+
+}
+
+.service-box3{
+
+  width: calc(90% / 3);
+  border: 1px solid yellow;
+}
+
+/* C L I E N T  S E C T I O N */
+.client{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  border: 2px solid black;
+  height: 700px;
+}
+
+.client-box{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 50px;
+  border: 2px solid red;
+  height: 300px;
+}
+
+.client-box1{
+
+  width: calc(94% / 3);
+  border: 1px solid blue;
+  height: 190px;
+
+}
+
+.client-box2{
+
+  flex-basis: calc(94% / 3);
+  border: 1px solid green;
+
+
+}
+
+.client-box3{
+
+  width: calc(94% / 3);
+  border: 1px solid yellow;
+  height: 190px;
+}
+
+/* T E S T I M O N I A L S  S E C T I O N  */
+.testimonials{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  border: 2px solid black;
+  height: 300px;
+}
+
+
+/* M O R E  S E C T I O N */
+.more{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  height: 200px;
+}
