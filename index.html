@@ -4,11 +4,14 @@
     <meta charset="utf-8">
     <title>My site</title>
 
-    <!-- **S T Y L E -->
+    <!-- **S T Y L E **-->
     <link rel="stylesheet" href="assets/main.css">
 
-    <!-- **F O N T A W E S O M E -->
+    <!-- **F O N T A W E S O M E **-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+    <!-- F O N T -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="site">
@@ -16,13 +19,33 @@
       <div class="container">
 
         <!-- ** N A V B A R ** -->
-        <header class="navbar">
+        <header class="navbar m-t-30">
 
           <div class="navbar-left">
-
+            <img src="img/logo.png" alt="logo">
           </div>
 
           <div class="navbar-right">
+
+            <ul class="menu-inline">
+
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Book Online</a></li>
+              <li><a href="#">Tips</a></li>
+              <li><a href="#">Contact</a></li>
+
+            </ul>
+
+            <ul class="contact menu-inline">
+
+              <li><a href="#"><i class="big fas fa-user-circle"></i></a></li>
+              <li><a href="#">Log-in</a></li>
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+
+            </ul>
+
 
           </div>
 
@@ -32,75 +55,83 @@
         <section class="jumbotron m-t-30">
 
           <div class="jumbotron-left">
-
-          </div>
+            <div class="jumbotron-text">
+              <h1>Tidy Space. Happy Mind.</h1>
+              <h2>Online Consultations and Tutorial Videos for an Organized Home </h2>
+              <button class= "jumbo-button"type="button" name="button">Let's Start</button>
+            </div>
+            </div>
 
           <div class="jumbotron-right">
-
+            <div class="text">
+              <h1>Your Space, Your Mind</h1>
+              <h2>Join now for free </h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
 
         </section>
 
         <!-- ** M E E T  S E C T I O N **-->
-        <section class="meet m-t-30">
+        <section class="meet m-t-60">
           <div class="bio">
-
+            <h2>Let's Meet</h2>
+            <h3>I'm Julia, An Expert in Decluttering</h3>
+            <button class="show "type="button" name="button">Read More</button>
+            <p class="biop">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.
+            </p>
+            <p class="biop">This is a great space to write long text about your company and your services. You can use this space to go into a little more detail about your company. Talk about your team and what services you provide. Tell your visitors the story of how you came up with the idea for your business and what makes you different from your competitors. Make your company stand out and show your visitors who you are.</p>
           </div>
         </section>
 
         <!-- /* S E R V I C E  S E C T I O N */ -->
-        <section class="service m-t-30">
-          <h2>My services</h2>
+        <section class="service m-t-60">
+          <h3 class="heading">My services</h3>
           <div class="service-box">
 
             <div class="service-box1">
-
+              <img src="img/service1.png" alt="">
+              <div class="service-text">
+                <h2>Home Organizzing</h2>
+              </div>
             </div>
 
             <div class="service-box2">
-
+              <img src="img/service2 .png" alt="">
+              <div class="service-text">
+                <h2>Closet Organizzing</h2>
+              </div>
             </div>
 
             <div class="service-box3">
-
+              <img src="img/service3.png" alt="">
+              <div class="service-text">
+                <h2>Home Staging </h2>
+              </div>
             </div>
           </div>
+
+          <button type="button" name="button">Contact Me</button>
 
         </section>
 
+        <!-- **C L I E N T  S E C T I O N** -->
+        <section class="client">
+            <h2 class="heading">Happy Clients' Homes</h2>
+          <div class="client-box-top m-t-0">
 
-        <section class="client m-t-30">
-            <h2>My services</h2>
-          <div class="client-box">
-
-            <div class="client-box1">
-
-            </div>
-
-            <div class="client-box2">
-
-            </div>
-
-            <div class="client-box3">
-
-            </div>
+              <img src="img/s1.png" alt="">
+              <img class="dist"src="img/s2.png" alt="">
+              <img src="img/s3.png" alt="">
 
 
           </div>
 
-          <div class="client-box">
+          <div class="client-box-bottom">
 
-            <div class="client-box1">
+            <img src="img/s4.png" alt="">
+            <img class="dist"src="img/s5.png" alt="">
+            <img src="img/s6.png" alt="">
 
-            </div>
-
-            <div class="client-box2">
-
-            </div>
-
-            <div class="client-box3">
-
-            </div>
 
 
           </div>
@@ -110,43 +141,31 @@
 
         <!-- /* T E S T I M O N I A L S  S E C T I O N  */ -->
         <section class="testimonials m-t-30">
-          <h2>testimonials</h2>
-          <div class="service-box">
+          <h2 class="heading">Testimonials</h2>
+          <div class="testimonial-box">
 
-            <div class="service-box1">
-
+            <div class="testimonial-box1">
+          <p>“I'm a testimonial. Click to edit me and add text that says something nice about you and your services.”</p>
+          <h3 class="heading">Riley Jones</h3>
             </div>
 
-            <div class="service-box2">
-
+            <div class="testimonial-box2">
+          <p>“I'm a testimonial. Click to edit me and add text that says something nice about you and your services.”</p>
+          <h3 class="heading">Payton Hillman</h3>
             </div>
 
-            <div class="service-box3">
-
+            <div class="testimonial-box3">
+          <p>“I'm a testimonial. Click to edit me and add text that says something nice about you and your services.”</p>
+          <h3 class="heading">Reese Mathers</h3>
             </div>
           </div>
         </section>
-
-        <section class="more m-t-30">
-
-
-        </section>
-
-
-
-
-
-
-
-
-
-
-
 
       </div>
 
 
     </div>
-
+    <script src="assets/jquery-3.4.1.min.js" charset="utf-8"></script>
+    <script src="assets/main.js" charset="utf-8"></script>
   </body>
 </html>
